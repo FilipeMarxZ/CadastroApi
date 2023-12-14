@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+    <title>Document</title>
+    <title>Video Background Example</title>
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="../Site/Rock Lee vs Gaara trailer - Trim.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <h2>Lista de Pessoas</h2>
+    <button onclick="abrirTelaCreate()">Adicionar Pessoa</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Primeiro Nome</th>
+                <th>Nome do Meio</th>
+                <th>Último Nome</th>
+                <th>CPF</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="pessoa-lista">
+
+        </tbody>
+    </table>
+    <script src="../Site/js/index.js"></script>
+</body>
+</html>

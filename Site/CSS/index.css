@@ -1,0 +1,45 @@
+body{
+    background: -webkit-linear-gradient(left, #ffd686, #f2ac5c);
+    background: -moz-linear-gradient(left, #ffd686, #f2ac5c);
+    background: -ms-linear-gradient(left, #ffd686, #f2ac5c);
+    background: -o-linear-gradient(left, #ffd686, #f2ac5c);
+    background: linear-gradient(to right, #ffd686, #f2ac5c);
+}
+
+table{
+    color:black;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td{
+    border: 1px solid #f8ababc4;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    background-color:azure
+}
+
+button{
+    color:brown;
+    cursor: pointer;
+    padding: 5px 10px
+}
+body {
+    margin: 0;
+    overflow: hidden; /* Remove a barra de rolagem */
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* Restante dos estilos da sua página aqui */
